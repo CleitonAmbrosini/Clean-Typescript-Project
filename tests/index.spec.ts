@@ -1,5 +1,7 @@
+import oi from '../src/index';
+
 describe('Test', () => {
   it('test', () => {
-    expect(1).toBe(1);
+    expect(oi(true)).toBe(1);
   });
 });
